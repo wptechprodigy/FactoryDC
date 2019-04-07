@@ -12,3 +12,5 @@ class User {
         this.isAdmin = null;
     }
 }
+
+export default User;
