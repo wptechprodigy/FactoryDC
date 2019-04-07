@@ -1,5 +1,5 @@
 class User {
-    constructior() {
+    constructor() {
         this.id = null;
         this.firstName = null;
         this.lastName = null;
