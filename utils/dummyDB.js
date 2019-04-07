@@ -21,6 +21,22 @@ export default {
         },
         {
             id: uuid.v4(),
+            firstName: 'Jorah',
+            lastName: 'Momorth',
+            email: 'jorah@nightswatch.got',
+            password: '123456',
+            type: client,
+            phoneNumber: '09123976589',
+            address: {
+                street: '156 Nights Watch Colony',
+                city: 'Agidingbi',
+                state: 'Lagos',
+            },
+            createdOn: moment().format('YYYY DD MM'), 
+            isAdmin: false,
+        },
+        {
+            id: uuid.v4(),
             firstName: 'Daenarys',
             lastName: 'Targaeryean',
             email: 'd.targaeryean@targearyean.got',
